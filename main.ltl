@@ -1,0 +1,15 @@
+// ltl-yaml-lite/main.ltl
+//
+// Minimal YAML 1.2 subset — scalars, flows, and block mappings.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-yaml-lite v0.1.0")
+    io::println("Minimal YAML 1.2 subset — scalars, flows, and block mappings.")
+    0
+}
